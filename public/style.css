@@ -1,0 +1,22 @@
+
+
+li:hover{
+  cursor: pointer;
+  color: hsl(348, 86%, 43%);
+  text-decoration-line: line-through;
+}
+
+@media screen and (max-width: 500px) {
+  
+  
+  .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  .heading1{
+    width: 88%;
+    align-self:center;
+  
+  }
+}
